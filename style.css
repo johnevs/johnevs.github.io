@@ -1,0 +1,168 @@
+body {
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+
+    background-color: #8ED6FA;
+    background: linear-gradient(to right bottom, #C6EEF9, #81BAD2);
+    background-size: cover;
+    padding-top: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+  }
+
+#hero.jumbotron {
+
+    background-image: url(hero.png);
+    background-color: transparent;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    padding-bottom: 6rem;
+    padding-left: 2rem;
+  }
+
+  .btn {
+    border: none;
+    border-radius: 5px!important;
+    background-color: #06A0FC;
+    width: 200px;
+    color: white;
+    font-weight: 200;
+
+  }
+
+  /* Nav / Header */
+
+.navbar {
+  background-color: rgba(176, 232, 253, 0.65)!important;
+  border-bottom: 0px solid #06A0FC;
+ 
+}
+
+.brand {
+  display: block;
+  overflow: auto;
+}
+
+a h1{
+  display: inline;
+  float: left;
+  color: #06A0FC;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 0!important;
+}
+
+a img{
+  display: inline;
+  float: left;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+div#navbarNav.collapse.navbar-collapse li a {
+  padding: 0 10px;
+  text-transform: uppercase;
+  color: #4A4A4A;
+  padding: 0 20px 10px 20px;
+}
+
+div#navbarNav.collapse.navbar-collapse li > a:hover{
+  color: #06A0FC !important;
+}
+
+span.navbar-toggler-icon {
+  color: #06A0FC!important;
+}
+
+/* Services */
+
+
+#services h2 {
+  margin-top: 0;
+  margin-bottom: 75px!important;
+}
+
+.col-md-4 {
+  padding: 20px;
+}
+
+
+
+/* Tech */
+
+div#tech {
+  padding: 20px;
+  text-align: left;
+}
+
+
+/* Testimonial */
+
+div#testimonial {
+  padding: 50px!important;
+}
+
+/* Form */
+
+section {
+  background-color: ##8ED6FA;
+  background: linear-gradient(to right bottom, #81BAD2, #C6EEF9);
+  padding: 20px;
+}
+
+#contact h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+
+}
+
+#contact p {
+  margin-bottom: 50px;
+}
+
+#contact .form-group {
+  margin-bottom: 15px;
+}
+
+#contact input, textarea {
+  padding: 10px;
+}
+
+#contact textarea {
+  height: 170px;
+}
+
+/* Footer */
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 25px 0 10px 0;
+}
+
+div#copyright {
+  padding: 0;
+}
+
+div#policy-terms {
+  padding: 0;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px) {
+    button.full-width {
+        width: 100%;  
+    }
+}
+
+
+
+
+
+
+
